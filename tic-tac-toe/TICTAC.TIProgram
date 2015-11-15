@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>cells</key>
+	<array>
+		<dict>
+			<key>column</key>
+			<integer>1</integer>
+			<key>row</key>
+			<integer>1</integer>
+			<key>stringValue</key>
+			<string>ClrHome1A2B3C4D5E6F7I8J9KLbl NprgmTIGRIDPrompt XprgmTISTOREprgmTISCOREprgmTIGRIDPrompt OprgmTISTOREOprgmTISCOREprgmTIGRIDGoto N</string>
+		</dict>
+	</array>
+	<key>columnCount</key>
+	<integer>1</integer>
+	<key>device name</key>
+	<string>TICTAC</string>
+	<key>object type</key>
+	<string>Program</string>
+	<key>rowCount</key>
+	<integer>1</integer>
+	<key>targetDevice</key>
+	<string>TI-83 Plus</string>
+</dict>
+</plist>

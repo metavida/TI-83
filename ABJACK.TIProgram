@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>cells</key>
+	<array>
+		<dict>
+			<key>column</key>
+			<integer>1</integer>
+			<key>row</key>
+			<integer>1</integer>
+			<key>stringValue</key>
+			<string>AxesOff:LabelOff:ExprOff:CoordOff:FnOff If U-1≠sum(⌊SCOR)/mean(⌊SCOR) or sum(⌊SCOR=1)&gt;50 or sum(⌊SCOR=2)&gt;50Then:1U{5}⌊SCOR:EndLbl AClrDraw0Xmin:94Xmax0Ymin:62Ymax99Xscl:99Yscl:0T2N:0O:0L{24,24,58}L₂{24,32,92}L₃Plot1(Scatter,L₃,L₂,·)Line(92,–1,92,sum(⌊SCOR=1)-1)Line(94,–1,94,sum(⌊SCOR=2)-1)randInt(2,14,2)L₁randInt(2,14,2)L₅:2GLbl CL₅L₄:1PWhile P≤GIf L₄(P)&gt;1110L₄(P)(1+P)P:End0P:While P≤3SortA(L₄)If sum(L₄)&gt;21 and max(L₄)=111L₄(G)(1+P)P:Endsum(L₄)HIf H&lt;randInt(15,17) and G&lt;5Then(1+G)G:randInt(2,14)L₅(G)Goto CEndLbl D0OWhile O&lt;N(O*13)S(O+1)OLine((5+S),6,(5+S),19)Line((15+S),6,(15+S),19)Line((6+S),5,(14+S),5)Line((6+S),20,(14+S),20)If L₁(O)≤10ThenText(43,(7+S),L₁(O))ElseIf L₁(O)=12Text(43,(7+S),"J")If L₁(O)=13Text(43,(7+S),"Q")If L₁(O)=14Text(43,(7+S),"K")If L₁(O)=11Text(43,(7+S),"A")End:End0OIf T=0:ThenWhile O&lt;G(O*13)S(1+O)OLine((5+S),38,(5+S),52)Line((15+S),38,(15+S),52)Line((6+S),37,(14+S),37)Line((6+S),53,(14+S),53)1T:EndIf L₅(1)≤10Text(10,7,L₅(1)If L₅(1)=11Text(10,7,"A"If L₅(1)=12Text(10,7,"J"If L₅(1)=13Text(10,7,"Q"If L₅(1)=14Text(10,7,"K"EndLbl 2L₁L₆:1PWhile P≤NIf L₆(P)&gt;1110L₆(P)(1+P)PEnd:1P:0θWhile θ&lt;3(1+θ)θSortA(L₆)If sum(L₆)&gt;21 and max(L₆)=111L₆(N)Endsum(L₆)RIf N≥5:Goto SIf R≥21:Goto SText(30,5,"HIT?  Y    N")Text(40,80,R)Text(1,74,"QUIT")Lbl UTraceIf X=24Then(N+1)Nsum(randInt(2,14,1))L₁(N)Goto DElseIf X=92:Goto QLbl S0O:While O&lt;G(O*13)S(1+O)OIf L₅(O)≤10Text(10,7+S,L₅(O)If L₅(O)=11Text(10,7+S,"A":If L₅(O)=12Text(10,7+S,"J":If L₅(O)=13Text(10,7+S,"Q":If L₅(O)=14Text(10,7+S,"K"EndIf G≥5 and H&lt;21:Goto LIf N≥5 and R&lt;21:Goto WIf R≤H and H≤21:Goto LIf R=21Goto WIf R&gt;21Goto LLbl WText(53,10,"YOU WIN")1⌊SCOR(U)(1+U)UText(40,80,R)Text(20,80,H)Pause prgmABJACKLbl LText(53,10,"YOU LOSE"2⌊SCOR(U)(1+U)UText(40,80,R)Text(20,80,H)Pause prgmABJACKLbl QMenu("QUIT?","YES",42,"NO",ULbl 42CoordOn:AxesOn:ExprOn:ZStandard:Disp Stop</string>
+		</dict>
+	</array>
+	<key>columnCount</key>
+	<integer>1</integer>
+	<key>device name</key>
+	<string>ABJACK</string>
+	<key>object type</key>
+	<string>Program</string>
+	<key>rowCount</key>
+	<integer>1</integer>
+	<key>targetDevice</key>
+	<string>TI-83 Plus</string>
+</dict>
+</plist>

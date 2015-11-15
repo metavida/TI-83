@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>cells</key>
+	<array>
+		<dict>
+			<key>column</key>
+			<integer>1</integer>
+			<key>row</key>
+			<integer>1</integer>
+			<key>stringValue</key>
+			<string>If O=1 and A=1–9AIf O=2 and B=2–9BIf O=3 and C=3–9CIf O=4 and D=4–9DIf O=5 and E=5–9EIf O=6 and F=6–9FIf O=7 and I=7–9IIf O=8 and J=8–9JIf O=9 and K=9–9K</string>
+		</dict>
+	</array>
+	<key>columnCount</key>
+	<integer>1</integer>
+	<key>device name</key>
+	<string>TISTOREO</string>
+	<key>object type</key>
+	<string>Program</string>
+	<key>rowCount</key>
+	<integer>1</integer>
+	<key>targetDevice</key>
+	<string>TI-83 Plus</string>
+</dict>
+</plist>

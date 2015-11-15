@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>cells</key>
+	<array>
+		<dict>
+			<key>column</key>
+			<integer>1</integer>
+			<key>row</key>
+			<integer>1</integer>
+			<key>stringValue</key>
+			<string>ClrHome:0C{0,0,0,0,0,0,0,0,0,0,0,0,0,0}L₄:{2,2,2,2,2,2,2,2,2,2,2,2}L₆Output(3,5,"YATZEE"):Output(5,2,"BY MARCOS KUHNS")Pause :ClrHomeClrDraw:0DPlotsOff :Plot1(Scatter,L₁,L₂,·):FnOff AxesOff:0EExprOff:0XCoordOff:0G0Xmin:6Xmax:–5Ymin:10YmaxLbl SClrHomeOutput(1,1,"1:")Output(1,3,L₄(1))Output(1,6,"2:")Output(1,8,L₄(2)Output(1,12,"3:")Output(1,14,L₄(3)Output(2,1,"4:")Output(2,3,L₄(4)Output(2,6,"5:")Output(2,8,L₄(5)Output(2,12,"6:")Output(2,14,L₄(6)Output(3,1,"TOT:")Output(3,5,L₄(1)+L₄(2)+L₄(3)+L₄(4)+L₄(5)+L₄(6)Output(3,9,"BONUS:"Output(3,15,L₄(14)Output(4,1,"4KND:")Output(4,6,L₄(7)Output(5,1,"3KND:")Output(5,6,L₄(8)Output(6,1,"FULL:")Output(6,6,L₄(9)Output(4,9,"SM ST:")Output(4,15,L₄(10)Output(5,9,"LG ST:")Output(5,15,L₄(11)Output(6,9,"YATZE:"Output(6,15,L₄(13)Output(7,1,"CHNCE:")Output(7,7,L₄(12)Output(8,1,"TOT::")Output(8,5,L₄(7)+L₄(8)+L₄(9)+L₄(10)+L₄(11)+L₄(12)+L₄(13))Output(8,9,"GTOT:"Output(8,14,sum(L₄))Pause If G=1Goto 91N:0M:0X:0T:0X:0C:0D:{.5,1,2,3,4,5,6}L₁:{–2,1,1,1,1,1,–2}L₂{2,2,2,2,2}L₅:Text(47,75,"DONE"):Text(47,15,"MAIN MENU")randInt(1,6,5)L₃:Goto MLbl C0FWhile F&lt;5(F+1)FIf L₅(F)=.5Then:Text(20,15(F),"X")randInt(1,6)L₃(F)End:End{2,2,2,2,2}L₅:0X:0C:0D:1N:0M:(1+T)TLbl M0EIf X=.5:Goto EIf X=6:Goto CWhile E&lt;5(1+E)EIf X=E:L₅(E)L₅(E)If L₅(E)=.5:Text(27,15(E),"V"If L₅(E)=2:Text(27,15(E),"^"EndLbl XWhile M≤6If N&lt;1:1N(1+M)MIf M=6:Then:(1+N)N:1M:EndIf N&gt;5:Goto DEnd:EndLbl DWhile C&lt;5(1+C)CText(20,15(C),L₃(C)EndLbl 8If sum(ΔList(L₃)=0)=4Then:13PGoto P:EndIf T≤1Then:0XTrace:Goto MElse1PLbl QgetKeyQPt-Off(.75,8,2)If Q=26:(1+P)PIf Q=24:(P-1)PIf P&lt;1:12PIf P&gt;12:1PIf Q=105 and L₆(P)=2:Goto PIf L₆(P)≠2Pt-On(.75,8,2)If P=1:Text(5,15,"ONES       "If P=2:Text(5,15,"TWOES      "If P=3:Text(5,15,"THREES     "If P=4:Text(5,15,"FOURS      "If P=5:Text(5,15,"FIVES      "If P=6:Text(5,15,"SIXES                      "If P=7:Text(5,15,"4 OF A KIND"If P=8:Text(5,15,"3 OF A KIND                "If P=9:Text(5,15,"FULL HOUSE                 "If P=10:Text(5,15,"SM. STRAIGHT       "If P=11:Text(5,15,"LG. STRAIGHT"If P=12:Text(5,15,"CHANCE                    "Goto QLbl PSortA(L₃):0HWhile H≤6(1+H)HIf P=H:Then(H*sum(L₃=H))L₄(H):0L₆(H)End:EndIf P=7:ThenIf sum(L₃=L₃(1))≥4 or sum(L₃=L₃(2))≥4sum(L₃)L₄(P)0L₆(P)EndIf P=8:ThenIf sum(L₃=L₃(1))≥3 or sum(L₃=L₃(2))≥3 or sum(L₃=L₃(3))≥3sum(L₃)L₄(P)0L₆(P)EndIf P=9:Then0L₆(P)If sum(L₃(1)=L₃)=3 and sum(L₃(5)=L₃)=2:Then25L₄(P):ElseIf sum(L₃(1)=L₃)=2 and sum(L₃(5)=L₃)=3:25L₄(P)End:EndIf P=10:ThenIf sum(ΔList(L₃)=1)≥330L₄(P)0L₆(P)EndIf P=11:ThenIf sum(ΔList(L₃)=1)=440L₄(P)0L₆(P)EndIf P=12:Thensum(L₃)L₄(P)0L₆(P)EndIf P=13:Then50+L₄(P)L₄(P)If L₄(P)&gt;5050+L₄(P)L₄(P)End:EndIf (L₄(1)+L₄(2)+L₄(3)+L₄(4)+L₄(5)+L₄(6))≥63:35L₄(14)If sum(L₆=2)=0Then:1G:Goto S:EndGoto SEndLbl EMenu("MAIN MENU","CONTINUE",8,"QUIT",9Lbl 9CoordOn:AxesOn:ExprOn:PlotsOff :FnOn ClrHomeDisp "YOUR SCORE:",sum(L₄)," "If sum(L₄)&gt;sum(⌊Y)Then{sum(L₄)}⌊Y:Disp "NEW HIGH SCORE!!",sum(⌊Y)ElseDisp "HIGH SCORE:",sum(⌊Y):EndDisp "THANKS 4 PLAYIN'"Stop</string>
+		</dict>
+	</array>
+	<key>columnCount</key>
+	<integer>1</integer>
+	<key>device name</key>
+	<string>YATZZE</string>
+	<key>object type</key>
+	<string>Program</string>
+	<key>rowCount</key>
+	<integer>1</integer>
+	<key>targetDevice</key>
+	<string>TI-83 Plus</string>
+</dict>
+</plist>

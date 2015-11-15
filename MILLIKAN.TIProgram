@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>cells</key>
+	<array>
+		<dict>
+			<key>column</key>
+			<integer>1</integer>
+			<key>row</key>
+			<integer>1</integer>
+			<key>stringValue</key>
+			<string>Fix 30θClrList L₅,L₆Lbl 5(1+θ)θiPart(rand *5+1)LLL₅(θ)L*1.6–19QiPart(rand *150+250)/1000000S180–7N800P3√(((NS)/(2*P*9.8))R(4πPR)/3M(M*9.8*.075)/QBRWS*1000AAL₆(θ)If θ≠1:Goto 0PlotsOff –10Xmin:15Xmax:–13Ymin:7YmaxFnOff AxesOffDispGraph1M:1LClrList L₁,L₂,L₃,L₄ClrDrawLine(–1,–10,–1,5.5):Line(–1,5.5,10.2,5.5):Line(10.2,5.5,10.2,–10):Line(10.2,–10,–1,–10):Line(–1,–1,4.3,–1):Line(4.9,–1,10.2,–1)Line(–3.1,–1.1,–6,–1.1):Line(–6,–1.1,–6,.2):Line(–6,.2,–4.9,1.5):Line(–4.9,1.5,–4.9,2.2):Line(–4.1,2.2,–4.1,1.5):Line(–4.1,1.5,–3.1,.2)Line(–3.1,.2,–3.1,–1.1):Line(.1,2.2,–5.5,2.2):Line(–5.5,2.8,.1,2.8):Line(–4.1,2.8,.1,2.8):Line(–4.1,2.8,–4.1,3.5):Line(–4.1,3.5,–4.9,3.5):Line(–4.9,3.5,–4.9,2.8)Circle(–6.5,2.5,1.06)Line(–1,–6.5,–4.4,–6.5):Line(–4.4,–6.5,–4.4,–5.3):Line(–4.4,–5.3,–1,–5.3):Line(–4.4,–5.6,–6,–5.6):Line(–6,–5.6,–6,–5.3)Line(–6,–5.3,–6.5,–5.3):Line(–6.5,–5.3,–6.5,–6.5):Line(–6.5,–6.5,–6,–6.5):Line(–6,–6.5,–6,–6.2):Line(–6,–6.2,–4.4,–6.2)Line(11.3,–1.4,12.4,–1.4):Line(11.8,–.7,11.8,–2):Line(11.3,–9.7,12.4,–9.7)Text(57,1,"    CLEAR  LAUNCH  &lt;ENTER&gt;")Pause Text(57,1,"                                                                                  ")For(X,1,5,1)rand *10L₁(X)rand *5L₂(X)EndFor(X,1,5,1)rand *10L₃(X)rand *5L₄(X)EndSortA(L₂)SortA(L₄)4.5L₁(6)1L₂(6)For(T,1,11,1)For(R,1,6,1)Pt-Off(L₁(R),L₂(R))EndL₂-.5L₂Pt-On(L₁(6),L₂(6))For(R,1,5,1)If L₂(R)&lt;–.8Then100L₂(R)EndPt-On(L₁(R),L₂(R))EndFor(R,1,5,1)Pt-Off(L₃(R),L₄(R))EndL₄-.3L₄For(R,1,5,1)If L₄(R)&lt;–.8Then100L₄(R)EndPt-On(L₃(R),L₄(R))EndEndText(57,1,"LAUNCH  CLEARED  &lt;ENTER&gt;")Pause ClrHomeDisp "DROP'S TERMINAL","SPEED (MM/S) IS",ADisp ""Disp "ADJUST VOLTAGE","TO BRING SHIP TO","REST."Pause Lbl 24ClrDrawAxesOff–13.5Xmin:13.5Xmax:0Xscl–20Ymin:–.1Ymax:2YsclText(1,1,"USE             AND             FOR    COARSE")Text(8,1,"VOLTAGE    ADJUSTMENTS.")Text(20,1,"USE             AND             FOR    FINE")Text(27,1,"ADJUSTMENTS.")Text(34,1,"USE + AND - FOR REALY"Text(41,1,"BIG ADJUSTMENTS."Line(–8.6,–.7,–8.6,–2):Line(–8.3,–1.7,–8.3,–1.1)Pt-On(–8,–1.4):Pt-On(–.9,–1.4)Line(–.6,–1.7,–.6,–1.1):Line(–.3,–.7,–.3,–2):Line(–8.6,–7.8,–7.5,–7.8):Line(–7.8,–7.5,–8.3,–7.5)Pt-On(–8,–7.2):Pt-On(–.9,–7.8)Line(–1.1,–7.5,–.6,–7.5):Line(–.3,–7.2,–1.4,–7.2)Text(48,1,"PRESS ENTER FOR TELESCOPE")Text(55,1,"VIEW."Pause ClrDrawPlotsOff AxesOnLbl 00VLbl 90Y:0ZClrDrawCircle(0,–10,10)Lbl 1getKeyQIf Q=95:(V+5000)VIf Q=85:(V-5000)VIf Q=26:V+400VIf Q=24:V-400VIf Q=25:V+10VIf Q=34:V-10V(A/B)(B-V)SText(50,0,"VOLTS = ",V)If (abs(V-B))&lt;20:Goto 2Text(57,0,"SPEED = ",S)Pt-Off(2,Y):Pt-Off(2.2,Y):Pt-Off(2,Z):Pt-Off(2.2,Z)Y-(S*.8)YY+.3226ZPt-On(2,Y):Pt-On(2.2,Y):Pt-On(2,Z):Pt-On(2.2,Z)If Y&lt;–19 or Y&gt;0ThenClrHomeDisp "THE DROP IS OUT","OF RANGE.","PRESS ENTER TO","RE-FOCUS."Pause Goto 9EndGoto 1Lbl 2VL₄(θ)Text(57,0,"SPEED = 0                               ")Pause ClrHomeIf θ=5:Goto 7Menu("ENTER CHOICE","ANOTHER DROP",5,"DATA SUMMARY",7)Lbl 7ClrHomeClrList L₁,L₂For(X,1,θ,1)L₅(X)LL₆(X)/1000S180–7N800P3√(((NS)/(2*P*9.8))RR/(1–6)L₁(X)EndClrDrawAxesOffText(1,15,"TERMINAL")Text(8,21,"SPEED")Text(16,19,"(MM/S)")Text(1,54,"APPLIED")Text(8,53,"VOLTAGE")Text(16,54,"(VOLTS)")For(X,24,θ*8+16,8)Float(X-16)/8NText(X,1,N,".")Text(X,25,L₆(N))Text(X,57,L₄(N))EndPause ClrHomeDisp "FIND THE RADIUS,","MASS, AND CHARGE","OF EACH DROP.","","THE UM..","PLATE SEPARATION","IS 0.075 M."Pause ClrHomeDisp "CAN YOU FIND THE","CHARGE  ON  A ","LONELY ELECTRON?"Pause Disp "","OF COURSE NOT."Pause ZStandard:ClrHomeDisp "THIS PROG HAS"Disp "BEEN FORMATTED"Disp "4 UR TI-83 BY","      CAX","AND FIXED BY","      MEK"AxesOn:FloatStop</string>
+		</dict>
+	</array>
+	<key>columnCount</key>
+	<integer>1</integer>
+	<key>device name</key>
+	<string>MILLIKAN</string>
+	<key>object type</key>
+	<string>Program</string>
+	<key>rowCount</key>
+	<integer>1</integer>
+	<key>targetDevice</key>
+	<string>TI-83 Plus</string>
+</dict>
+</plist>

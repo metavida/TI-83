@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>cells</key>
+	<array>
+		<dict>
+			<key>column</key>
+			<integer>1</integer>
+			<key>row</key>
+			<integer>1</integer>
+			<key>stringValue</key>
+			<string>ClrHome:0COutput(3,1,"A DECK OF CARDS"):Output(5,2,"BY MARCOS KUHNS")Pause :ClrHomeClrDraw:0DAxesOff:0EExprOff:0XCoordOff0Xmin:6Xmax:–5Ymin:10YmaxLbl S1N:0M:0X:0T:0X:0C:0D:{.5,1,2,3,4,5,6}L₁:{–3,1,1,1,1,1,–3}L₂:{2,2,2,2,2}L₅:Text(51,75,"DONE"):Text(51,20,"MAIN MENU")randInt(2,14,5)L₃:randInt(1,4,5)L₄:Goto MLbl C0FWhile F&lt;5(F+1)FIf L₃(F)=10:Text(9,15(F),".   .")If L₅(F)=.5Then:randInt(2,14)L₃(F):randInt(1,4)L₄(F)End:End{2,2,2,2,2}L₅:0X:0C:0D:1N:0M:1TLbl M0EIf X=.5:Goto EIf X=6:Goto CWhile E&lt;5(1+E)EIf X=E:L₅(E)L₅(E)If L₅(E)=.5:Text(27,15(E),"V"If L₅(E)=2:Text(27,15(E),"^"EndLbl XWhile M≤6If N&lt;1:1N(1+M)MIf M=6:Then:(1+N)N:1M:EndIf N&gt;5:Goto DIf L₃(M)=L₃(N) and L₄(M)=L₄(N) and M≠N:ThenrandInt(2,14)L₃(M):randInt(1,4)L₃(M):(M-1)M:(N-1)NEnd:EndLbl DWhile D&lt;5(1+D)DIf L₄(D)=1:Text(20,15(D),"S"If L₄(D)=2:Text(20,15(D),"C"If L₄(D)=3:Text(20,15(D),"H"If L₄(D)=4:Text(20,15(D),"D"EndWhile C&lt;5(1+C)CIf L₃(C)≤10:Text(9,15(C),L₃(C)If L₃(C)=11:Text(9,15(C),"J"If L₃(C)=12:Text(9,15(C),"Q"If L₃(C)=13:Text(9,15(C),"K"If L₃(C)=14:Text(9,15(C),"A"EndLbl 8If T=0ThenTrace:Goto MElsePause :Goto SEndLbl EMenu("MAIN MENU","CONTINUE",8,"RE-DEAL",S,"QUIT",9Lbl 9Stop</string>
+		</dict>
+	</array>
+	<key>columnCount</key>
+	<integer>1</integer>
+	<key>device name</key>
+	<string>XPOKER</string>
+	<key>object type</key>
+	<string>Program</string>
+	<key>rowCount</key>
+	<integer>1</integer>
+	<key>targetDevice</key>
+	<string>TI-83 Plus</string>
+</dict>
+</plist>

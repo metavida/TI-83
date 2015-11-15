@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>cells</key>
+	<array>
+		<dict>
+			<key>column</key>
+			<integer>1</integer>
+			<key>row</key>
+			<integer>1</integer>
+			<key>stringValue</key>
+			<string>0T:0θPlotsOff :FnOff Menu("CHOOSE ONE","REGRESSION",95,"DOTS DOWN",98,"TREND",97Lbl 95Plot1(Scatter,L₁,L₂,▫)Menu("TRACE?","YES",Z,"NO",O)Lbl Z:1TLbl OrandInt(–20,20,10)L₁:randInt(–15,15,10)L₂LinReg(ax+b) L₁,L₂,Y₁:QuadReg L₁,L₂,Y₂:CubicReg L₁,L₂,Y₃:QuartReg L₁,L₂,Y₄–23.5Xmin:23.5Xmax:–15.5Ymin:15.5YmaxIf T=1:TraceDispGraphGoto OLbl 97If θ=0:ThenMenu("TRACE?","YES",Y,"NO",N)Lbl Y:1TLbl N:EndPlotsOff :CoordOn:AxesOn:0N:randInt(10,20)O:–1Xmin0P:{0}L₆:{0}L₅Lbl 96While N≤ONL₅(N+1)PL₆(N+1)(P+randNorm(0,2))P(N+1)NEndmax(L₅)+2Xmaxmin(L₆)-2Yminmax(L₆)+2YmaxPlot1(xyLine,L₅,L₆,·)DispGraphIf T=1:Trace1θ:Goto 97Lbl 9810T:0UFnOff AxesOff:CoordOff:PlotsOff :ZStandard:FnOff 10VLbl 99While U&lt;VgetKeyWIf W=150:Goto E(1+U)UrandNorm(0,3)S:randInt(1,20)VPt-On(S,T)End(T-.5)T:If T&lt;–10:10T:0UGoto 99Lbl E</string>
+		</dict>
+	</array>
+	<key>columnCount</key>
+	<integer>1</integer>
+	<key>device name</key>
+	<string>ARANDOM</string>
+	<key>object type</key>
+	<string>Program</string>
+	<key>rowCount</key>
+	<integer>1</integer>
+	<key>targetDevice</key>
+	<string>TI-83 Plus</string>
+</dict>
+</plist>

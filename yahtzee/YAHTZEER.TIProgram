@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>cells</key>
+	<array>
+		<dict>
+			<key>column</key>
+			<integer>1</integer>
+			<key>row</key>
+			<integer>1</integer>
+			<key>stringValue</key>
+			<string>ClrHome1MrandInt(1,6,5)L₅Lbl S{0,0,0,0,0}L₆Disp L₅Lbl KInput KIf K=0 and M=1Goto TIf K=1ThenL₅(1)L₆(1)Goto KEndIf K=2ThenL₅(2)L₆(2)Goto KEndIf K=3ThenL₅(3)L₆(3)Goto KEndIf K=4ThenL₅(4)L₆(4)Goto KEndIf K=5ThenL₅(5)L₆(5)Goto KEndIf K=9L₅L₆Lbl TIf L₆(1)=0randInt(1,6)L₅(1)If L₆(2)=0randInt(1,6)L₅(2)If L₆(3)=0randInt(1,6)L₅(3)If L₆(4)=0randInt(1,6)L₅(4)If L₆(5)=0randInt(1,6)L₅(5)(M+1)MIf M&lt;3Goto SIf M≥3ThenDisp L₅Pause prgmYAHTZEESStop</string>
+		</dict>
+	</array>
+	<key>columnCount</key>
+	<integer>1</integer>
+	<key>device name</key>
+	<string>YAHTZEER</string>
+	<key>object type</key>
+	<string>Program</string>
+	<key>rowCount</key>
+	<integer>1</integer>
+	<key>targetDevice</key>
+	<string>TI-83 Plus</string>
+</dict>
+</plist>

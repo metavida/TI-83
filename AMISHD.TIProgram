@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>cells</key>
+	<array>
+		<dict>
+			<key>column</key>
+			<integer>1</integer>
+			<key>row</key>
+			<integer>1</integer>
+			<key>stringValue</key>
+			<string>ClrHome6I:0N:0O:0P:0Q:2LMenu("SELECT MODE","1 CALC",1,"LINKED",2)Lbl 2prgmTAMISHLLbl 1If P≥10000ThenClrHomeDisp "P1 WINS"StopEndIf Q≥10000ThenClrHomeDisp "P2 WINS"StopEnd0O:6IIf L=1Then:2LElse:1LEndLbl YClrHome0N:2RIf I≤0:6IrandInt(1,6,I)L₁Output(2,1,L₁)sum(L₁=1)S(I-S)IIf S≤2(S*100+N)NIf S&gt;2:((S-2)1000+N)Nsum(L₁=5)S(I-S)IIf S≤2(S*50+N)NIf S&gt;2:(((S-2)*500)+N)NLbl RIf R=5:6Rsum(L₁=R)SIf S=3:((R*100)+N)NIf S=4:((R*200)+N)NIf S&gt;4:((R*400)+N)NIf S≥3:(I-S)I(R+1)RIf R≤6:Goto RSortA(L₁)If sum(L₁≠7)≤3Goto OIf sum(ΔList(L₁)=1)=5Then(2000+N)N0IEndIf sum(ΔList(L₁)=1)=4Then(1000+N)N1IEndIf sum(L₁≠7)≥4Goto OIf sum(L₁(1)=L₁)=2 and sum(L₁(2)=L₁)=2 and sum(L₁(3)=L₁)=2 and sum(L₁(4)=L₁)=2 and sum(L₁(5)=L₁)=2Then(2000+N)N0IEndLbl OIf N≠0:(N+O)OOutput(5,1,"P1"Output(5,10,"P2"If L=1ThenOutput(6,1,N)Output(7,1,O)ElseOutput(6,10,N)Output(7,10,O)EndOutput(8,1,P)Output(8,10,Q)If N=0ThenPause 0NGoto 1EndInput "CONTINUE?",MIf M=1:Goto YIf L=1Then:(O+P)PElse:(O+Q)QEndOutput(3,1,L₁)Output(6,1,O)Input "PIGYBACK?",KIf K=0:Goto 1If L=1Then:2LElse:1LEndGoto Y</string>
+		</dict>
+	</array>
+	<key>columnCount</key>
+	<integer>1</integer>
+	<key>device name</key>
+	<string>AMISHD</string>
+	<key>object type</key>
+	<string>Program</string>
+	<key>rowCount</key>
+	<integer>1</integer>
+	<key>targetDevice</key>
+	<string>TI-83 Plus</string>
+</dict>
+</plist>
